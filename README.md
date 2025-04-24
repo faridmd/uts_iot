@@ -23,8 +23,6 @@ Folder ini berisi file-file untuk membuat tampilan website monitoring:
 - `style.css` – Styling halaman web
 - `test_data.php` – Endpoint untuk menerima data dari Wemos via HTTP POST
 
-Pastikan kamu sudah menjalankan server lokal seperti **XAMPP** dengan konfigurasi database yang sesuai.
-
 ---
 
 ### 📁 `wemos/` - Program Arduino (ESP8266)
@@ -55,7 +53,7 @@ Library yang digunakan:
 
 - Upload kode di folder `wemos/` ke board menggunakan Arduino IDE
 - Jalankan server lokal dan letakkan folder `web/` di dalam folder `htdocs`
-- Buat database sesuai dengan struktur tabel yang dijelaskan di laporan (`dht11`, kolom: id, temperature, humidity, datetime)
+- Buat database mySQL dengan panel phpMyAdmin sesuai dengan struktur tabel yang dijelaskan di laporan (`dht11`, kolom: id, temperature, humidity, datetime)
 
 ---
 
