@@ -6,10 +6,10 @@
 #define DHTTYPE DHT11 
 DHT dht11(DHTPIN, DHTTYPE); 
 
-String URL = "http://192.168.1.5:1337/uts_iot/test_data.php";
+String URL = "http://192.168.1.5:1337/uts_iot/web/test_data.php"; // sesuaikan IP Address dengan ip host
 
-const char* ssid = "OpenWrt"; 
-const char* password = "123456789"; 
+const char* ssid = "OpenWrt"; // sesuaikan SSID 
+const char* password = "123456789"; // sesuaikan SSID Password
 
 int temperature = 0;
 int humidity = 0;
